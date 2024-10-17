@@ -1,0 +1,1817 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    display: inline;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.hero {
+    background-color: #2196f3;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.donation-form {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.donation-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, 
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+nav a.active {
+    color: #ff5722; /* Example: Highlight active link with a different color */
+    font-weight: bold;
+	
+}
+
+/* Existing styles... */
+
+/* About Us Hero Section */
+.about-hero {
+    background-image: url('images/about-hero.jpg'); /* Replace with your hero image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about-hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-hero p {
+    font-size: 1.2rem;
+}
+
+/* Mission Section */
+.mission {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.mission h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mission p {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Team Section */
+.team {
+    padding: 60px 0;
+}
+
+.team h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    color: #555;
+}
+
+/* Impact Section */
+.impact {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.impact h2 {
+    margin-bottom: 20px;
+}
+
+.impact p {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    line-height: 1.6;
+}
+
+.impact-statistics {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.stat {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.stat h3 {
+    font-size: 3rem;
+    color: #ff5722;
+    margin-bottom: 10px;
+}
+
+.stat p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Get Involved Section */
+.get-involved {
+    padding: 60px 0;
+}
+
+.get-involved h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.get-involved p {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.get-involved .btn {
+    display: inline-block;
+    background-color: #ff5722;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.get-involved .btn:hover {
+    background-color: #e64a19;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .team-members, .impact-statistics {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-member, .stat {
+        width: 80%;
+    }
+
+    .about-hero {
+        padding: 60px 0;
+    }
+
+    .about-hero h2 {
+        font-size: 2rem;
+    }
+
+    .mission p, .impact p, .get-involved p {
+        padding: 0 20px;
+    }
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.testimonials h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.testimonial {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    text-align: center;
+    font-style: italic;
+    color: #555;
+}
+
+.testimonial h4 {
+    margin-top: 15px;
+    color: #333;
+}
+
+/* Video Introduction Section */
+.video-introduction {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.video-introduction h2 {
+    margin-bottom: 20px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 100%;
+    border: none;
+}
+
+/* Timeline Section */
+.timeline {
+    padding: 60px 0;
+}
+
+.timeline h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.timeline-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline-container::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #ff5722;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.timeline-item {
+    padding: 20px 30px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #ff5722;
+    border: 4px solid #fff;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.timeline-item.left {
+    left: 0;
+}
+
+.timeline-item.right {
+    left: 50%;
+}
+
+.timeline-item.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid #ff5722;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #ff5722;
+}
+
+.timeline-item.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid #ff5722;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #ff5722 transparent transparent;
+}
+
+.timeline-item .timeline-content {
+    padding: 20px 30px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 6px;
+}
+
+.timeline-item.left .timeline-content {
+    margin-right: 90px;
+}
+
+.timeline-item.right .timeline-content {
+    margin-left: 90px;
+}
+
+.timeline-item h3 {
+    margin-top: 0;
+    color: #ff5722;
+}
+
+.timeline-item p {
+    color: #555;
+}
+
+/* Responsive Timeline */
+@media screen and (max-width: 768px) {
+    .timeline-container::after {
+        left: 31px;
+    }
+
+    .timeline-item {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .timeline-item.left, .timeline-item.right {
+        left: 0;
+    }
+
+    .timeline-item.left::before, .timeline-item.right::before {
+        left: 60px;
+        border: medium solid #ff5722;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent #ff5722 transparent transparent;
+    }
+
+    .timeline-item.left .timeline-content, .timeline-item.right .timeline-content {
+        margin: 0;
+    }
+}
+
+/* Existing styles... */
+
+/* Hero Section */
+.hero {
+    background-image: url('images/hero-background.jpg'); /* Replace with your hero image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 120px 0;
+    text-align: center;
+}
+
+.hero .hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #e64a19;
+}
+
+/* Mission Section */
+.mission {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.mission h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.mission p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Impact Section */
+.impact {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.impact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.impact-statistics {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.stat {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.stat h3 {
+    font-size: 3rem;
+    color: #ff5722;
+    margin-bottom: 10px;
+}
+
+.stat p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Projects Section */
+.projects {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.project-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 30%;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin: 20px 0 10px 0;
+    color: #ff5722;
+}
+
+.project-card p {
+    padding: 0 20px;
+    font-size: 1rem;
+    color: #555;
+    height: 80px;
+    overflow: hidden;
+}
+
+.project-card .btn {
+    display: inline-block;
+    margin: 20px 0;
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project-card .btn:hover {
+    background-color: #e64a19;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.testimonial-slider {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial {
+    padding: 20px;
+    font-style: italic;
+    color: #555;
+}
+
+.testimonial h4 {
+    margin-top: 15px;
+    color: #333;
+}
+
+/* Call to Action Section */
+.cta {
+    padding: 60px 0;
+    background-color: #ff5722;
+    color: #fff;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta .btn {
+    background-color: #fff;
+    color: #ff5722;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta .btn:hover {
+    background-color: #e6e6e6;
+    color: #e64a19;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 15px;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ff5722;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .stat {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .project-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .impact-statistics, .project-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stat, .project-card {
+        width: 80%;
+    }
+
+    .hero .hero-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .hero .hero-content p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .stat, .project-card {
+        width: 100%;
+    }
+
+    .hero {
+        padding: 80px 0;
+    }
+
+    .hero .hero-content h2 {
+        font-size: 2rem;
+    }
+
+    .hero .hero-content p {
+        font-size: 0.9rem;
+    }
+}
+/* Donation Progress Section */
+.donation-progress {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.donation-progress h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    width: 80%;
+    height: 30px;
+    background-color: #ddd;
+    margin: 20px auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    width: 1%; /* Dynamic width based on donations */
+    background-color: #ff5722;
+    transition: width 0.5s ease;
+}
+
+.donation-progress p {
+    font-size: 1.2rem;
+    color: #555;
+}
+/* Newsletter Section */
+.newsletter {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.newsletter h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.newsletter p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.newsletter form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.newsletter .form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter .form-group input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+}
+
+.newsletter .form-group button {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    background-color: #ff5722;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter .form-group button:hover {
+    background-color: #e64a19;
+}
+bridges-foundation/
+├── index.html
+├── about.html
+├── thank_you.html
+├── cancel.html
+├── style.css
+├── script.js
+├── process_donation.php
+├── create_paypal_order.php
+├── capture_paypal_order.php
+├── contact_process.php
+├── subscribe.php
+├── images/
+│   ├── hero-background.jpg
+│   ├── project1.jpg
+│   ├── project2.jpg
+│   ├── project3.jpg
+│   ├── facebook-icon.png
+│   ├── twitter-icon.png
+│   ├── instagram-icon.png
+│   └── ... (other images)
+├── composer.json
+├── composer.lock
+└── vendor/
+    └── ... (Composer dependencies)
+/* Contact Section */
+.contact {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact .form-group input,
+.contact .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact .btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact .btn:hover {
+    background-color: #e64a19;
+}
+
+/* Existing styles... */
+
+/* Hero Section for Project Pages */
+.project-hero {
+    background-image: url('images/project_hero_background.jpg'); /* Replace with your project-specific hero image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.project-hero .hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.project-hero .hero-content p {
+    font-size: 1.2rem;
+}
+
+/* Project Overview Section */
+.project-overview {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.project-overview h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.project-overview p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Project Goals Section */
+.project-goals {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.project-goals h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.project-goals ul {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.project-goals ul li {
+    background: url('images/checkmark.svg') no-repeat left center;
+    background-size: 20px 20px;
+    padding-left: 35px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Project Activities Section */
+.project-activities {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.project-activities h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.activities-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.activity {
+    width: 45%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.activity i {
+    font-size: 3rem;
+    color: #ff5722;
+    margin-bottom: 15px;
+}
+
+.activity h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.activity p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Project Impact Section */
+.project-impact {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.project-impact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.project-impact p {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.project-impact-statistics {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-impact-statistics .stat {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.project-impact-statistics .stat h3 {
+    font-size: 3rem;
+    color: #ff5722;
+    margin-bottom: 10px;
+}
+
+.project-impact-statistics .stat p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Project Gallery Section */
+.project-gallery {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.project-gallery h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+}
+
+/* Project Testimonials Section */
+.project-testimonials {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.project-testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.testimonial-slider .testimonial {
+    padding: 20px;
+    font-style: italic;
+    color: #555;
+}
+
+.testimonial-slider .testimonial h4 {
+    margin-top: 15px;
+    color: #333;
+}
+
+/* Project Call to Action Section */
+.project-cta {
+    padding: 60px 0;
+    background-color: #ff5722;
+    color: #fff;
+    text-align: center;
+}
+
+.project-cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.project-cta p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.project-cta .btn {
+    background-color: #fff;
+    color: #ff5722;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project-cta .btn:hover {
+    background-color: #e6e6e6;
+    color: #e64a19;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .activity {
+        width: 100%;
+    }
+
+    .project-impact-statistics .stat {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-impact-statistics .stat {
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    .project-impact-statistics .stat {
+        width: 100%;
+    }
+}
+
+/* Donation Progress Section */
+.donation-progress {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.donation-progress h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    width: 80%;
+    height: 30px;
+    background-color: #ddd;
+    margin: 20px auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    width: 1%; /* This will be updated dynamically */
+    background-color: #ff5722;
+    transition: width 0.5s ease;
+}
+
+.donation-progress p {
+    font-size: 1.2rem;
+    color: #555;
+}
+/* Existing styles... */
+
+/* Project Hero Section */
+.project-hero {
+    background-image: url('images/project-hero.jpg'); /* Replace with your project-specific hero image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 120px 0;
+    text-align: center;
+}
+
+.project-hero .hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.project-hero .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.project-hero .btn {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project-hero .btn:hover {
+    background-color: #e64a19;
+}
+
+/* Project Overview Section */
+.project-overview {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.project-overview h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.project-overview p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Project Goals Section */
+.project-goals {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.project-goals h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.project-goals ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Project Activities Section */
+.project-activities {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.project-activities h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.activities-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.activity-item {
+    width: 22%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.activity-item i {
+    font-size: 3rem;
+    color: #ff5722;
+    margin-bottom: 15px;
+}
+
+.activity-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.activity-item p {
+    font-size: 1rem;
+    color: #555;
+    padding: 0 10px;
+}
+
+/* Project Impact Section */
+.project-impact {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.project-impact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.project-impact p {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.project-impact .impact-statistics {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-impact .stat {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.project-impact .stat h3 {
+    font-size: 3rem;
+    color: #ff5722;
+    margin-bottom: 10px;
+}
+
+.project-impact .stat p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Project Gallery Section */
+.project-gallery {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.project-gallery h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery-images img {
+    width: 45%;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-images img:hover {
+    transform: scale(1.05);
+}
+
+/* Testimonial Slider Section */
+.testimonials {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.testimonial-slider .testimonial {
+    padding: 20px;
+    font-style: italic;
+    color: #555;
+}
+
+.testimonial-slider .testimonial h4 {
+    margin-top: 15px;
+    color: #333;
+}
+
+/* Call to Action Section */
+.cta {
+    padding: 60px 0;
+    background-color: #ff5722;
+    color: #fff;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta .btn {
+    background-color: #fff;
+    color: #ff5722;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta .btn:hover {
+    background-color: #e6e6e6;
+    color: #e64a19;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 15px;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ff5722;
+}
+
+.legal-links a {
+    color: #fff;
+    margin: 0 5px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.legal-links a:hover {
+    color: #ff5722;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .stat {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .activity-item {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .gallery-images img {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .impact-statistics, .activities-list, .gallery-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stat, .activity-item, .gallery-images img {
+        width: 80%;
+    }
+
+    .project-hero {
+        padding: 80px 0;
+    }
+
+    .project-hero .hero-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .project-hero .hero-content p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .stat, .activity-item, .gallery-images img {
+        width: 100%;
+    }
+
+    .project-hero {
+        padding: 60px 0;
+    }
+
+    .project-hero .hero-content h2 {
+        font-size: 2rem;
+    }
+
+    .project-hero .hero-content p {
+        font-size: 0.9rem;
+    }
+}
+/* Project Hero Section */
+.project-hero {
+    background-image: url('images/project3/hero.jpg'); /* Replace with your project-specific hero image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.project-hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.project-hero p {
+    font-size: 1.2rem;
+}
+
+/* Project Overview Section */
+.project-overview {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.project-overview h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.project-overview p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Project Goals Section */
+.project-goals {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.project-goals h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.project-goals ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.project-goals ul li {
+    font-size: 1.1rem;
+    padding: 10px 0;
+    position: relative;
+}
+
+.project-goals ul li::before {
+    content: "\2022";
+    color: #ff5722;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Project Implementation Section */
+.project-implementation {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.project-implementation h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.implementation-steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.step {
+    width: 45%;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.step h3 {
+    font-size: 1.5rem;
+    color: #ff5722;
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Project Impact Section */
+.project-impact {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.project-impact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.project-impact p {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.project-impact .impact-statistics {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-impact .stat {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.project-impact .stat h3 {
+    font-size: 3rem;
+    color: #ff5722;
+    margin-bottom: 10px;
+}
+
+.project-impact .stat p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Project Gallery Section */
+.project-gallery {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.project-gallery h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+
+/* Project CTA Section */
+.project-cta {
+    padding: 60px 0;
+    background-color: #ff5722;
+    color: #fff;
+    text-align: center;
+}
+
+.project-cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.project-cta p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.project-cta .btn {
+    background-color: #fff;
+    color: #ff5722;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project-cta .btn:hover {
+    background-color: #e6e6e6;
+    color: #e64a19;
+}
+
+/* Responsive Design for Project Page */
+@media (max-width: 768px) {
+    .step {
+        width: 80%;
+    }
+
+    .project-impact .stat {
+        width: 45%;
+    }
+}
+
+@media (max-width: 576px) {
+    .step {
+        width: 100%;
+    }
+
+    .project-impact .stat {
+        width: 100%;
+    }
+}
+/* Accordion Styles */
+.accordion {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-button {
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease;
+    font-size: 1.1rem;
+}
+
+.accordion-button:hover {
+    background-color: #f1f1f1;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 15px;
+}
+
+.accordion-content p {
+    padding: 15px 0;
+    color: #555;
+}
+
+/* Active Accordion */
+.accordion-item.active .accordion-content {
+    max-height: 200px; /* Adjust based on content */
+}
+
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bridges Foundation - Donate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Bridges Foundation</h1>
+            <nav>
+    <a href="index.html">Home</a>
+    <a href="aboutUs.html">About Us</a>
+    <a href="TheBridgesFoundation.html" class="active">Donate</a>
+</nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Help Us Build Bridges for a Better Future</h2>
+            <p>Your support empowers communities. Donate today to make a lasting impact.</p>
+            <a href="#donation-form" class="btn">Donate Now</a>
+        </div>
+    </section>
+
+    <section class="donation-form" id="donation-form">
+        <div class="container">
+            <h2>Make a Donation</h2>
+            <form action="process_donation.php" method="POST" id="donate-form">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                
+				<script src="https://www.paypal.com/sdk/js?client-id=BAAhp23OPjWBKBHXsVTXx8GSHWF8L8iKZe6Nd7pvrKAqh_8fZPqxeCQRWl5HjSHGU5wsso7jCzCLv2swN0&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
+<div id="paypal-container-G269QHXTV6HRC"></div>
+<script>
+  paypal.HostedButtons({
+    hostedButtonId: "G269QHXTV6HRC",
+  }).render("#paypal-container-G269QHXTV6HRC")
+</script>
+               
+            </form>
+        </div>
+    </section>
+
+
+<!-- Contact Section -->
+<section class="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to get involved? Reach out to us!</p>
+        <form action="contact_process.php" method="POST">
+            <div class="form-group">
+                <label for="contact-name">Full Name:</label>
+                <input type="text" id="contact-name" name="contact_name" required>
+            </div>
+            <div class="form-group">
+                <label for="contact-email">Email Address:</label>
+                <input type="email" id="contact-email" name="contact_email" required>
+            </div>
+            <div class="form-group">
+                <label for="contact-message">Message:</label>
+                <textarea id="contact-message" name="contact_message" rows="5" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn">Send Message</button>
+            </div>
+        </form>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Bridges Foundation. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="https://www.instagram.com/bridges_foundation1"><i class="fab fa-instagram">instagram</i></a>
+            <!-- Add more social icons as needed -->
+        </div>
+        <div class="legal-links">
+            <a href="privacy.html">Privacy Policy</a> |
+            <a href="terms.html">Terms of Service</a>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
