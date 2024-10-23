@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bridges Foundation - Empowering Communities</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons (Optional) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/kTcC3H/aJkQe84D9j3YQ6Mw7N/OngNwd4Kln9ep7P3F1iVz81zjzOwgBW1jOUBjs5iZ+vzRtf2hQA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Stripe.js and PayPal SDK included in existing pages -->
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Bridges Foundation</h1>
+            <nav>
+                <a href="home.html" class="active">Home</a>
+                <a href="aboutUs.html">About Us</a>
+                <a href="#projects">Projects</a>
+                <a href="TheBridgesFoundation.html">Donate</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h2>Building Bridges for a Better Tomorrow</h2>
+            <p>Empowering communities through sustainable development, education, and economic growth.</p>
+            <a href="TheBridgesFoundation.html" class="btn">Donate Now</a>
+        </div>
+    </section>
+
+    <!-- Mission Statement -->
+    <section class="mission">
+        <div class="container">
+            <h2>Our Mission</h2>
+            <p>
+                At Bridges Foundation, our mission is to empower underprivileged communities by providing access to essential resources, education, and sustainable development projects. We strive to create lasting impacts that enable individuals and communities to thrive independently.
+            </p>
+        </div>
+    </section>
+
+    <!-- Impact Statistics -->
+    <section class="impact">
+        <div class="container">
+            <h2>Our Impact</h2>
+            <div class="impact-statistics">
+                <div class="stat">
+                    <h3>3</h3>
+                    <p>Projects in planning</p>
+                </div>
+                <div class="stat">
+                    <h3>20,000+</h3>
+                    <p>Lives we aim to Impact</p>
+                </div>
+                <div class="stat">
+                    <h3>95%</h3>
+                    <p>Donation Allocation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="project-cards">
+                <!-- Project 1 -->
+               <div class="project-card">
+                <img src="images/project1.jpg" alt="Community Education Center" loading="lazy">
+                <h3>Community Education Center</h3>
+                <p>
+                    Establishing a center that provides educational resources and training programs for local residents.
+                </p>
+                <a href="community_education.html" class="btn">Learn More</a>
+            </div>
+                <!-- Project 2 -->
+<div class="project-card">
+    <img src="images/project2.jpg" alt="Healthcare Outreach">
+    <h3>Healthcare Outreach</h3>
+    <p>
+        Delivering essential healthcare services and medical supplies to underserved areas.
+    </p>
+    <a href="healthcare_outreach.html" class="btn">Learn More</a>
+</div>
+<!-- Project 3 -->
+<div class="project-card">
+    <img src="images/project3.jpg" alt="Project 3">
+    <h3>fair institutions</h3>
+    <p>
+        Promoting sustainable practices to enhance security and economic stability.
+    </p>
+    <a href="project3.html" class="btn">Learn More</a>
+</div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2>What Our Partners Say</h2>
+            <div class="testimonial-slider">
+                <!-- Testimonial 1 -->
+                <div class="testimonial">
+                    <p>"Bridges Foundation has transformed our community by providing essential resources and support. Their dedication is truly inspiring."</p>
+                    <h4>- Michael Brown, Community Leader</h4>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="testimonial">
+                    <p>"The projects initiated by Bridges Foundation have had a lasting impact on our lives. We are grateful for their unwavering support."</p>
+                    <h4>- Sarah Lee, Beneficiary</h4>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="testimonial">
+                    <p>"Working with Bridges Foundation has been a rewarding experience. Their commitment to sustainable development is evident in every project."</p>
+                    <h4>- David Kim, Partner Organization</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <h2>Join Us in Making a Difference</h2>
+            <p>Your support can help bridge gaps and build a brighter future for communities in need.</p>
+            <a href="TheBridgesFoundation.html" class="btn">Donate Today</a>
+        </div>
+    </section>
+<!-- Donation Progress Section -->
+<section class="donation-progress">
+    <div class="container">
+        <h2>Our Fundraising Goal</h2>
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+        <p><span id="current-amount">$1</span> raised of $100,000 goal</p>
+    </div>
+</section>
+<!-- Newsletter Section -->
+<section class="newsletter">
+    <div class="container">
+        <h2>Stay Updated</h2>
+        <p>Subscribe to our newsletter to receive the latest news and updates from Bridges Foundation.</p>
+        <form action="subscribe.php" method="POST">
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Enter your email address" required>
+                <button type="submit" class="btn">Subscribe</button>
+            </div>
+        </form>
+    </div>
+</section>
+<head>
+    <!-- Existing head content -->
+    <meta name="description" content="Bridges Foundation empowers communities through sustainable development, education, and economic growth. Join us in making a difference.">
+    <meta name="keywords" content="Bridges Foundation, non-profit, community development, sustainable projects, donations">
+    <!-- ... -->
+</head>
+
+    
+        </div>
+    </footer>
+<!-- Contact Section -->
+<section class="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to get involved? Reach out to us!</p>
+        <form action="contact_process.php" method="POST">
+            <div class="form-group">
+                <label for="contact-name">Full Name:</label>
+                <input type="text" id="contact-name" name="contact_name" required>
+            </div>
+            <div class="form-group">
+                <label for="contact-email">Email Address:</label>
+                <input type="email" id="contact-email" name="contact_email" required>
+            </div>
+            <div class="form-group">
+                <label for="contact-message">Message:</label>
+                <textarea id="contact-message" name="contact_message" rows="5" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn">Send Message</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+    <!-- Optional: Include jQuery for Slider (if used) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+            integrity="sha256-/xUj+3OJ++vDJb3PJw3vywLkfsW50fWXjrVq0tBjK/A=" 
+            crossorigin="anonymous"></script>
+    <!-- Optional: Slick Slider for Testimonials -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- Your Custom Script -->
+    <script src="script.js"></script>
+	<footer>
+    <div class="container">
+        <p>&copy; 2024 Bridges Foundation. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/bridges_foundation1"><i class="fab fa-instagram">instagram</i></a>
+			<!-- Footer -->
+        <div class="legal-links">
+            <a href="privacy.html">Privacy Policy</a> |
+            <a href="terms.html">Terms of Service</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
