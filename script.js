@@ -49,8 +49,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Update Donation Progress Bar
-    const currentAmount = 75000; // Replace with dynamic data
-    const goalAmount = 100000;
+    const currentAmount = 346.81; // Replace with dynamic data
+    const goalAmount = 6000;
     const progress = document.getElementById('progress');
     const currentAmountSpan = document.getElementById('current-amount');
 
