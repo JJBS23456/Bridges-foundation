@@ -769,7 +769,7 @@ footer p {
 
 .progress {
     height: 100%;
-    width: 1%; /* Dynamic width based on donations */
+    width: 5.78%; /* Dynamic width based on donations */
     background-color: #ff5722;
     transition: width 0.5s ease;
 }
