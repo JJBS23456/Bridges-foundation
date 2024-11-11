@@ -114,9 +114,3 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
-project-folder/
-├── css/
-│   └── style.css
-├── images/
-│   └── image_2024-11-11_133158210.png
-└── index.html
