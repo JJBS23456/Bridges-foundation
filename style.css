@@ -37,7 +37,7 @@ nav a {
 
 /* Hero Section with Background Image */
 .hero {
-    background: url('https://github.com/JJBS23456/Bridges-foundation/blob/f40ee1ba2cad242b6e5abfac4b6fbe4b5724decc/image_2024-11-11_133158210.png/images/image_2024-11-11_133158210.png') no-repeat center center/cover;
+    background: url('https://github.com/JJBS23456/Bridges-foundation/blob/f40ee1ba2cad242b6e5abfac4b6fbe4b5724decc/images/image_2024-11-11_133158210.png') no-repeat center center/cover;
     height: 400px;
     display: flex;
     align-items: center;
