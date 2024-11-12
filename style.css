@@ -37,7 +37,7 @@ nav a {
 
 /* Hero Section with Background Image */
 .hero {
-    background: url("main/image_2024-11-11_133158210.png") no-repeat center center/cover;
+    background: url("Bridges-foundation/main/images/image_2024-11-11_133158210.png") no-repeat center center/cover;
     height: 400px;
     display: flex;
     align-items: center;
@@ -822,7 +822,7 @@ Bridges-foundation/
    ├── contact_process.php
    ├── subscribe.php
    ├── images/
-   │   ├── hero-background.jpg
+   │   ├── image_2024-11-11_133158210.png
    │   ├── GOPR6146.JPG
    │   ├── project2.jpg
    │   ├── project3.jpg
