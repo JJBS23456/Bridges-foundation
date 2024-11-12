@@ -809,30 +809,31 @@ footer p {
     background-color: #e64a19;
 }
 Bridges-foundation/
-├── index.html
-├── about.html
-├── thank_you.html
-├── cancel.html
-├── style.css
-├── script.js
-├── process_donation.php
-├── create_paypal_order.php
-├── capture_paypal_order.php
-├── contact_process.php
-├── subscribe.php
-├── images/
-│   ├── hero-background.jpg
-│   ├── GOPR6146.JPG
-│   ├── project2.jpg
-│   ├── project3.jpg
-│   ├── facebook-icon.png
-│   ├── twitter-icon.png
-│   ├── instagram-icon.png
-│   └── ... (other images)
-├── composer.json
-├── composer.lock
-└── vendor/
-    └── ... (Composer dependencies)
+├──main
+   ├── index.html
+   ├── about.html
+   ├── thank_you.html
+   ├── cancel.html
+   ├── style.css
+   ├── script.js
+   ├── process_donation.php
+   ├── create_paypal_order.php
+   ├── capture_paypal_order.php
+   ├── contact_process.php
+   ├── subscribe.php
+   ├── main/
+   │   ├── hero-background.jpg
+   │   ├── GOPR6146.JPG
+   │   ├── project2.jpg
+   │   ├── project3.jpg
+   │   ├── facebook-icon.png
+   │   ├── twitter-icon.png
+   │   ├── instagram-icon.png
+   │   └── ... (other images)
+   ├── composer.json
+   ├── composer.lock
+   └── vendor/
+       └── ... (Composer dependencies)
 /* Contact Section */
 .contact {
     padding: 60px 0;
